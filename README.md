@@ -16,38 +16,11 @@ You can install the package via composer:
 ```bash
 composer require alareqi/captcha-field
 ```
-
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="captcha-field-migrations"
-php artisan migrate
-```
-
-You can publish the config file with:
-
-```bash
-php artisan vendor:publish --tag="captcha-field-config"
-```
-
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="captcha-field-views"
-```
-
-This is the contents of the published config file:
-
-```php
-return [
-];
-```
-
 ## Usage
 
 ```php
-$captchaField = new Alareqi\CaptchaField();
-echo $captchaField->echoPhrase('Hello, Alareqi!');
+\Filament\Forms\Components\TextInput::make('captcha')->captcha();// default 'falt'
+\Filament\Forms\Components\TextInput::make('captcha')->captcha('math');
 ```
 
 ## Testing
