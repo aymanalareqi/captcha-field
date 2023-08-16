@@ -19,7 +19,7 @@ composer require alareqi/captcha-field
 ## Usage
 
 ```php
-\Filament\Forms\Components\TextInput::make('captcha')->captcha();// default 'falt'
+\Filament\Forms\Components\TextInput::make('captcha')->captcha();// default config 'flat'
 \Filament\Forms\Components\TextInput::make('captcha')->captcha('math');
 ```
 
