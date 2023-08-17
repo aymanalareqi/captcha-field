@@ -29,7 +29,7 @@ class CaptchaFieldServiceProvider extends PackageServiceProvider
     public function packageRegistered(): void
     {
         TextInput::macro('captcha', function ($config = 'flat') {
-            $this->helperText = new HtmlString("<img class='dark:invert dark:brightness-150' src='" . captcha_src($config) . "' />");
+            $this->helperText = new HtmlString("<img class='dark:invert dark:brightness-150' src='".captcha_src($config)."' />");
             $this->type = $config == 'math' ? 'number' : 'text';
             $this->rules('required|captcha');
 
@@ -57,7 +57,7 @@ class CaptchaFieldServiceProvider extends PackageServiceProvider
     protected function getAssets(): array
     {
         return [
-            Css::make('captcha-field-styles', __DIR__ . '/../resources/dist/captcha-field.css'),
+            Css::make('captcha-field-styles', __DIR__.'/../resources/dist/captcha-field.css'),
         ];
     }
 }
