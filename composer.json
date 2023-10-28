@@ -1,15 +1,15 @@
 {
-    "name": "alareqi/captcha-field",
+    "name": "alareqi/filament-captcha-field",
     "description": "Filament Captcha Field",
     "keywords": [
         "alareqi",
         "laravel",
         "captcha-field"
     ],
-    "homepage": "https://github.com/alareqi/captcha-field",
+    "homepage": "https://github.com/alareqi/filament-captcha-field",
     "support": {
-        "issues": "https://github.com/alareqi/captcha-field/issues",
-        "source": "https://github.com/alareqi/captcha-field"
+        "issues": "https://github.com/alareqi/filament-captcha-field/issues",
+        "source": "https://github.com/alareqi/filament-captcha-field"
     },
     "license": "MIT",
     "authors": [
