@@ -1,9 +1,9 @@
 # Filament Captcha Field
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/alareqi/captcha-field.svg?style=flat-square)](https://packagist.org/packages/alareqi/captcha-field)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/alareqi/captcha-field/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/alareqi/captcha-field/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/alareqi/captcha-field/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/alareqi/captcha-field/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/alareqi/captcha-field.svg?style=flat-square)](https://packagist.org/packages/alareqi/captcha-field)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/alareqi/filament-captcha-field.svg?style=flat-square)](https://packagist.org/packages/alareqi/filament-captcha-field)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/alareqi/filament-captcha-field/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/alareqi/filament-captcha-field/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/alareqi/filament-captcha-field/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/alareqi/filament-captcha-field/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/alareqi/filament-captcha-field.svg?style=flat-square)](https://packagist.org/packages/alareqi/filament-captcha-field)
 
 
 
@@ -14,7 +14,7 @@ This is where your description should go. Limit it to a paragraph or two. Consid
 You can install the package via composer:
 
 ```bash
-composer require alareqi/captcha-field
+composer require alareqi/filament-captcha-field
 ```
 ## Usage
 
